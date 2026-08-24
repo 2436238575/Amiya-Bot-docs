@@ -8,7 +8,6 @@
 # 为满足特定需求，该文件进行了一些修改。
 
 import os
-import platform
 from os.path import basename, exists, join
 
 from fontTools import subset

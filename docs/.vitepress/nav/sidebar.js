@@ -7,6 +7,7 @@ export const adapters = [
     {text: 'Go-CQHttp', link: '/develop/adapters/gocq.md'},
     {text: 'ComWeChatBot Client', link: '/develop/adapters/comwechat.md'},
     {text: 'OneBot 11', link: '/develop/adapters/onebot11.md'},
+    {text: 'OneBot 11 反向 WebSocket', link: '/develop/adapters/reverse_ws.md'},
     {text: 'OneBot 12', link: '/develop/adapters/onebot12.md'},
 
 ]
@@ -91,7 +92,9 @@ export default {
             text: '适配器',
             collapsible: true,
             items: [
-                {text: 'QQ 频道', link: '/develop/basic/api/qqbot.md'}
+                {text: 'QQ 频道', link: '/develop/basic/api/qqbot.md'},
+                {text: 'OneBot 11', link: '/develop/basic/api/onebot11.md'},
+                {text: '反向 WebSocket', link: '/develop/basic/api/reverse_ws.md'}
             ]
         }
     ],
@@ -136,7 +139,8 @@ export default {
             items: [
                 {text: 'HTTP 请求', link: '/develop/tools/httpRequests.md'},
                 {text: 'HTTP 服务器', link: '/develop/tools/httpSupport.md'},
-                {text: '数据库', link: '/develop/tools/databaseSupport.md'}
+                {text: '数据库', link: '/develop/tools/databaseSupport.md'},
+                {text: 'Redis 缓存', link: '/develop/tools/redis.md'}
             ]
         }
     ],

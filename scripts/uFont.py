@@ -1,9 +1,8 @@
-from qcloud_cos import CosConfig
-from qcloud_cos import CosS3Client
-
+import logging
 import os
 import sys
-import logging
+
+from qcloud_cos import CosConfig, CosS3Client
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
